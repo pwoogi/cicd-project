@@ -10,7 +10,7 @@ public class CicdController {
 
     @GetMapping("/health")
     public ResponseEntity<String> healthcheck(){
-        return ResponseEntity.ok("Please");
+        return ResponseEntity.ok("check please");
     }
 
 }
